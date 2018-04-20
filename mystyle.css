@@ -36,3 +36,28 @@ li:hover {
     margin-right: auto;
     text-align: center; 
 }
+.loader{
+    border: 16px solid lightgray;
+    border-top: 16px solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear;
+    animation-iteration-count: infinite; 
+}
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg)}
+}
+.hide-loader{
+    display: none;
+}
+#form-sign img{
+    text-align: center;
+}
+#form-sign{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+}

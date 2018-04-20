@@ -45,12 +45,6 @@ window.onload = function(){
     myButton.onclick = function(){
         setUserName();
     }
-    var table=this.document.getElementById('table');
-    var tableAttrs = table.attributes;
-    for(var i = 0;i < tableAttrs.length; i++){
-        if(tableAttrs[i].nodeName.toLowerCase() == "border")
-        table.border = "1";
-    }
     // var box = this.document.querySelector("#badBox")
     //     function mouseO(object) {
     //         object.innerHTML = 'The box has been clicked'
